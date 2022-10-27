@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Old Log Resort</title>
+    <!-- favion -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <!-- link to font awesome -->
+    <link
+      media="all"
+      rel="stylesheet"
+      href="vendors/font-awesome/css/font-awesome.css"
+    />
+    <!-- link to custom icomoon fonts -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fonts/icomoon/icomoon.css"
+    />
+    <!-- link to wow js animation -->
+    <link media="all" rel="stylesheet" href="vendors/animate/animate.css" />
+    <!-- include bootstrap css -->
+    <link media="all" rel="stylesheet" href="css/bootstrap.css" />
+    <!-- include main css -->
+    <link media="all" rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="preloader" id="pageLoad">
+      <div class="holder">
+        <div class="coffee_cup"></div>
+      </div>
+    </div>
+    <!-- main wrapper -->
+    <div id="wrapper">
+      <div class="page-wrapper">
+        <!-- main header -->
+        <header id="header">
+          <div class="container-fluid">
+            <!-- logo -->
+            <div class="logo">
+              <a href="index.html">
+                <img class="normal" src="img/logos/old-log.png" alt="Entrada" />
+                <img
+                  class="gray-logo"
+                  src="img/logos/old-log-grey.png"
+                  alt="Entrada"
+                />
+              </a>
+            </div>
+            <!-- main navigation -->
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle nav-opener"
+                  data-toggle="collapse"
+                  data-target="#nav"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <!-- main menu items and drop for mobile -->
+              <div class="collapse navbar-collapse" id="nav">
+                <!-- main navbar -->
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a
+                      href="index.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      >Home <b class="icon-angle-down"></b
+                    ></a>
+                  </li>
+                  <li class="dropdown">
+                    <a
+                      href="list-view-detail.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      >River <b class="icon-angle-down"></b
+                    ></a>
+                  </li>
+                  <li class="dropdown has-mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                      >Amenities <b class="icon-angle-down"></b
+                    ></a>
+                    <div class="dropdown-menu">
+                      <div class="drop-wrap">
+                        <div class="drop-holder">
+                          <div class="row">
+                            <div class="col-sm-6 col-md-3">
+                              <div class="col">
+                                <div class="img-wrap">
+                                  <a href="hiking-camping.html"
+                                    ><img
+                                      src="img/generic/img-01.jpg"
+                                      height="228"
+                                      width="350"
+                                      alt="image description"
+                                  /></a>
+                                </div>
+                                <div class="des">
+                                  <strong class="title"
+                                    ><a href="hiking-camping.html"
+                                      >Camping/Rv</a
+                                    ></strong
+                                  >
+                                  <p>
+                                    A good backpacker minimizes their impact on
+                                    the environment, including staying on
+                                    established trails, not disturbing
+                                    vegetation, and carrying garbage out.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                              <div class="col">
+                                <div class="img-wrap">
+                                  <a href="jungle-safari.html"
+                                    ><img
+                                      src="img/generic/img-02.jpg"
+                                      height="215"
+                                      width="370"
+                                      alt="image description"
+                                  /></a>
+                                </div>
+                                <div class="des">
+                                  <strong class="title"
+                                    ><a href="jungle-safari.html"
+                                      >Canoeing</a
+                                    ></strong
+                                  >
+                                  <p>
+                                    In the past, the trip was often a big-game
+                                    hunt, but today, safari often refers to
+                                    trips to observe and photograph wildlife—or
+                                    hiking and sight-seeing as well.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                              <div class="col">
+                                <div class="img-wrap">
+                                  <a href="city-tour.html"
+                                    ><img
+                                      src="img/generic/img-03.jpg"
+                                      height="215"
+                                      width="370"
+                                      alt="image description"
+                                  /></a>
+                                </div>
+                                <div class="des">
+                                  <strong class="title"
+                                    ><a href="city-tour.html"
+                                      >Kayaking</a
+                                    ></strong
+                                  >
+                                  <p>
+                                    The type of urban city tour considered here
+                                    is a full, partial-day, or longer tour of a
+                                    historical, or cultural or artistic site in
+                                    one or more tourist destinations.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                              <div class="col">
+                                <div class="img-wrap">
+                                  <a href="family-fun.html"
+                                    ><img
+                                      src="img/generic/img-04.jpg"
+                                      height="215"
+                                      width="370"
+                                      alt="image description"
+                                  /></a>
+                                </div>
+                                <div class="des">
+                                  <strong class="title"
+                                    ><a href="family-fun.html"
+                                      >Cabins</a
+                                    ></strong
+                                  >
+                                  <p>
+                                    A community area is available on Trafalgar’s
+                                    website offering members the opportunity to
+                                    interact with fellow travelers by joining
+                                    groups, contributing to forums.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <!-- search form -->
+        </header>
+        <!-- main banner -->
+        <section
+          class="banner banner-inner parallax"
+          data-stellar-background-ratio="0.5"
+          id="list-view-detail"
+        >
+          <div class="banner-text">
+            <div class="center-text">
+              <div class="container">
+                <h1>Muskegon River</h1>
+                <strong class="subtitle"
+                  >Beautiful river with a rich history</strong
+                >
+                <!-- breadcrumb -->
+                <nav class="breadcrumbs">
+                  <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">RIVER</a></li>
+                    <li><span>MUSKEGON</span></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- main container -->
+        <main id="main">
+          <div class="content-intro">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8 col-md-9 text-holder">
+                  <h2 class="title-heading">
+                    Discover The Muskegon River with Us
+                  </h2>
+                  <p>
+                    Muskegon River is a river in the western portion of the
+                    lower peninsula of the U.S. state of Michigan. The river
+                    source is located at Houghton Lake in Roscommon County,
+                    flowing out of the North Bay into neighboring Missaukee
+                    County. The river passes through Clare County, Osceola
+                    County, Mecosta County, Newaygo County, and Muskegon County,
+                    and generally flows southwesterly to its mouth at Muskegon,
+                    Michigan, where it empties into Muskegon Lake.
+                  </p>
+                  <p>
+                    The Muskegon River watershed drains 2,350 square miles
+                    (6,100 km2) from ten counties in north central Michigan:
+                    Muskegon, Newaygo, Mecosta, Clare, Osceola, and Roscommon.
+                    The watershed flows through the cities of Muskegon, Newaygo,
+                    Big Rapids, Evart, and Houghton Lake. The river follows a
+                    southwesterly route through north central Michigan from its
+                    headwaters at Houghton Lake to its mouth at Muskegon Lake,
+                    which ultimately empties into Lake Michigan.
+                  </p>
+                </div>
+                <div class="col-sm-4 col-md-3 map-col">
+                  <div class="holder">
+                    <div class="map-holder">
+                      <img
+                        src="img/generic/map.png"
+                        height="308"
+                        width="168"
+                        alt="image description"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="slot">
+                        <strong>Best Season:</strong>
+                        <span class="sub"> Mar-Jun</span>
+                      </div>
+                      <div class="slot">
+                        <strong>Popular Location:</strong>
+                        <span class="sub">Old Log Resort</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content block -->
+          <div class="content-block content-sub">
+            <div class="container">
+              <!-- list view -->
+              <div class="content-holder list-view">
+                <article class="article has-hover-s1">
+                  <div class="thumbnail">
+                    <div class="img-wrap">
+                      <img
+                        src="img/listing/img-35.jpg"
+                        height="240"
+                        width="350"
+                        alt="image description"
+                      />
+                    </div>
+                    <div class="description">
+                      <div class="col-left">
+                        <header class="heading">
+                          <h3>
+                            <a href="#">Camping</a>
+                          </h3>
+                          <div class="info-day">BYOT</div>
+                        </header>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat.
+                        </p>
+                        <div class="reviews-holder">
+                          <div class="star-rating">
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span class="disable"
+                              ><span class="icon-star"></span
+                            ></span>
+                          </div>
+                          <div class="info-rate">Based on 75 Reviews</div>
+                        </div>
+                        <footer class="info-footer">
+                          <ul class="ico-list">
+                            <li class="pop-opener">
+                              <span class="icon-beach"></span>
+                              <div class="popup">Beach</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-boat"></span>
+                              <div class="popup">Boat</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-food-wine"></span>
+                              <div class="popup">Food Wine</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-water"></span>
+                              <div class="popup">Water</div>
+                            </li>
+                          </ul>
+                        </footer>
+                      </div>
+                      <aside class="info-aside">
+                        <span class="price">from <span>$28</span></span>
+                        <div class="activity-level">
+                          <div class="ico">
+                            <span class="icon-level2"></span>
+                          </div>
+                          <span class="text">EASY - LEISURLY</span>
+                        </div>
+                        <a href="#" class="btn btn-default">explore</a>
+                      </aside>
+                    </div>
+                  </div>
+                </article>
+                <article class="article has-hover-s1">
+                  <div class="thumbnail">
+                    <div class="img-wrap">
+                      <img
+                        src="img/listing/img-36.jpg"
+                        height="240"
+                        width="350"
+                        alt="image description"
+                      />
+                    </div>
+                    <div class="description">
+                      <div class="col-left">
+                        <header class="heading">
+                          <h3>
+                            <a href="#">Trailers/Big Rigs</a>
+                          </h3>
+                          <div class="info-day">Comfort</div>
+                        </header>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat.
+                        </p>
+                        <div class="reviews-holder">
+                          <div class="star-rating">
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span class="disable"
+                              ><span class="icon-star"></span
+                            ></span>
+                          </div>
+                          <div class="info-rate">Based on 75 Reviews</div>
+                        </div>
+                        <footer class="info-footer">
+                          <ul class="ico-list">
+                            <li class="pop-opener">
+                              <span class="icon-beach"></span>
+                              <div class="popup">Beach</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-boat"></span>
+                              <div class="popup">Boat</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-food-wine"></span>
+                              <div class="popup">Food Wine</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-water"></span>
+                              <div class="popup">Water</div>
+                            </li>
+                          </ul>
+                        </footer>
+                      </div>
+                      <aside class="info-aside">
+                        <span class="price">from <span>$33</span></span>
+                        <div class="activity-level">
+                          <div class="ico">
+                            <span class="icon-level4"></span>
+                          </div>
+                          <span class="text">EASY - LEISURLY</span>
+                        </div>
+                        <a href="#" class="btn btn-default">explore</a>
+                      </aside>
+                    </div>
+                  </div>
+                </article>
+                <article class="article has-hover-s1">
+                  <div class="thumbnail">
+                    <div class="img-wrap">
+                      <img
+                        src="img/listing/img-37.jpg"
+                        height="240"
+                        width="350"
+                        alt="image description"
+                      />
+                    </div>
+                    <div class="description">
+                      <div class="col-left">
+                        <header class="heading">
+                          <h3>
+                            <a href="#">Cabins</a>
+                          </h3>
+                          <div class="info-day">Sleeps up to 6</div>
+                        </header>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat.
+                        </p>
+                        <div class="reviews-holder">
+                          <div class="star-rating">
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span class="disable"
+                              ><span class="icon-star"></span
+                            ></span>
+                          </div>
+                          <div class="info-rate">Based on 75 Reviews</div>
+                        </div>
+                        <footer class="info-footer">
+                          <ul class="ico-list">
+                            <li class="pop-opener">
+                              <span class="icon-beach"></span>
+                              <div class="popup">Beach</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-boat"></span>
+                              <div class="popup">Boat</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-food-wine"></span>
+                              <div class="popup">Food Wine</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-water"></span>
+                              <div class="popup">Water</div>
+                            </li>
+                          </ul>
+                        </footer>
+                      </div>
+                      <aside class="info-aside">
+                        <span class="price">from <span>$67</span></span>
+                        <div class="activity-level">
+                          <div class="ico">
+                            <span class="icon-level5"></span>
+                          </div>
+                          <span class="text">EASY - LEISURLY</span>
+                        </div>
+                        <a href="#" class="btn btn-default">explore</a>
+                      </aside>
+                    </div>
+                  </div>
+                </article>
+                <article class="article has-hover-s1">
+                  <div class="thumbnail">
+                    <div class="img-wrap">
+                      <img
+                        src="img/listing/img-38.jpg"
+                        height="240"
+                        width="350"
+                        alt="image description"
+                      />
+                    </div>
+                    <div class="description">
+                      <div class="col-left">
+                        <header class="heading">
+                          <h3>
+                            <a href="#">Kayaks</a>
+                          </h3>
+                          <div class="info-day">Personal Boat</div>
+                        </header>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat.
+                        </p>
+                        <div class="reviews-holder">
+                          <div class="star-rating">
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span class="disable"
+                              ><span class="icon-star"></span
+                            ></span>
+                          </div>
+                          <div class="info-rate">Based on 75 Reviews</div>
+                        </div>
+                        <footer class="info-footer">
+                          <ul class="ico-list">
+                            <li class="pop-opener">
+                              <span class="icon-beach"></span>
+                              <div class="popup">Beach</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-boat"></span>
+                              <div class="popup">Boat</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-food-wine"></span>
+                              <div class="popup">Food Wine</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-water"></span>
+                              <div class="popup">Water</div>
+                            </li>
+                          </ul>
+                        </footer>
+                      </div>
+                      <aside class="info-aside">
+                        <span class="price">from <span>$32</span></span>
+                        <div class="activity-level">
+                          <div class="ico">
+                            <span class="icon-level7"></span>
+                          </div>
+                          <span class="text">EASY - LEISURLY</span>
+                        </div>
+                        <a href="#" class="btn btn-default">explore</a>
+                      </aside>
+                    </div>
+                  </div>
+                </article>
+                <article class="article has-hover-s1">
+                  <div class="thumbnail">
+                    <div class="img-wrap">
+                      <img
+                        src="img/listing/img-39.jpg"
+                        height="240"
+                        width="350"
+                        alt="image description"
+                      />
+                    </div>
+                    <div class="description">
+                      <div class="col-left">
+                        <header class="heading">
+                          <h3>
+                            <a href="#">Canoes</a>
+                          </h3>
+                          <div class="info-day">Metal Boat</div>
+                        </header>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat.
+                        </p>
+                        <div class="reviews-holder">
+                          <div class="star-rating">
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span><span class="icon-star"></span></span>
+                            <span class="disable"
+                              ><span class="icon-star"></span
+                            ></span>
+                          </div>
+                          <div class="info-rate">Based on 75 Reviews</div>
+                        </div>
+                        <footer class="info-footer">
+                          <ul class="ico-list">
+                            <li class="pop-opener">
+                              <span class="icon-beach"></span>
+                              <div class="popup">Beach</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-boat"></span>
+                              <div class="popup">Boat</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-food-wine"></span>
+                              <div class="popup">Food Wine</div>
+                            </li>
+                            <li class="pop-opener">
+                              <span class="icon-water"></span>
+                              <div class="popup">Water</div>
+                            </li>
+                          </ul>
+                        </footer>
+                      </div>
+                      <aside class="info-aside">
+                        <span class="price">from <span>$42</span></span>
+                        <div class="activity-level">
+                          <div class="ico">
+                            <span class="icon-level8"></span>
+                          </div>
+                          <span class="text">EASY - LEISURLY</span>
+                        </div>
+                        <a href="#" class="btn btn-default">explore</a>
+                      </aside>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!-- pagination wrap -->
+            </div>
+          </div>
+          <!-- recent block -->
+        </main>
+      </div>
+      <!-- main footer -->
+      <footer id="footer">
+        <div class="container">
+          <!-- newsletter form -->
+          <!-- footer links -->
+          <div class="fix">
+            <iframe
+              class="map-footer"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11482.472624870277!2d-85.0906753!3d43.9879456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d193bf1b374ca72!2sOld%20Log%20Resort%20%26%20Campground!5e0!3m2!1sen!2sus!4v1666889196372!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="weatherWidget"></div>
+          <script>
+            window.weatherWidgetConfig = window.weatherWidgetConfig || [];
+            window.weatherWidgetConfig.push({
+              selector: ".weatherWidget",
+              apiKey: "H4CUKMXQQZAJ25TYJFJSAJ3T4", //Sign up for your personal key
+              location: "Marion, MI", //Enter an address
+              unitGroup: "us", //"us" or "metric"
+              forecastDays: 5, //how many days forecast to show
+              title: "Old Log Resort", //optional title to show in the
+              showTitle: true,
+              showConditions: true,
+            });
+
+            (function () {
+              var d = document,
+                s = d.createElement("script");
+              s.src =
+                "https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js";
+              s.setAttribute("data-timestamp", +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
+          <!-- social wrap -->
+          <!--H4CUKMXQQZAJ25TYJFJSAJ3T4-->
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- copyright -->
+                <strong class="copyright"
+                  ><i class="fa fa-copyright"></i> Copyright 2022 - Old Log
+                  Resort - by <a href="#">BH Designs</a></strong
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- scroll to top -->
+    <div class="scroll-holder text-center">
+      <a href="javascript:" id="scroll-to-top"
+        ><i class="icon-arrow-down"></i
+      ></a>
+    </div>
+    <!-- jquery library -->
+    <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+    <!-- external scripts -->
+    <script src="vendors/bootstrap/javascripts/bootstrap.min.js"></script>
+    <script src="vendors/jquery-placeholder/jquery.placeholder.min.js"></script>
+    <script src="vendors/match-height/jquery.matchHeight.js"></script>
+    <script src="vendors/wow/wow.min.js"></script>
+    <script src="vendors/stellar/jquery.stellar.min.js"></script>
+    <script src="vendors/validate/jquery.validate.js"></script>
+    <script src="vendors/waypoint/waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendors/jQuery-touch-punch/jquery.ui.touch-punch.min.js"></script>
+    <script src="vendors/fancybox/jquery.fancybox.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/jcf/js/jcf.js"></script>
+    <script src="vendors/jcf/js/jcf.select.js"></script>
+    <script src="vendors/retina/retina.min.js"></script>
+    <script src="vendors/bootstrap-datetimepicker-master/dist/js/bootstrap-datepicker.js"></script>
+    <!-- mailchimp newsletter subscriber -->
+    <script src="js/mailchimp.js"></script>
+    <!-- custom script -->
+    <script src="js/jquery.main.js"></script>
+  </body>
+</html>
